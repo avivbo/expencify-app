@@ -16,7 +16,7 @@ export default [
     createdAt: moment(0).subtract(4, 'days').valueOf()
   },
   {
-    id: '1',
+    id: '3',
     description: 'Credit Card',
     note: '',
     amount: 4500,

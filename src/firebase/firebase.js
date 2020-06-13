@@ -12,11 +12,4 @@ const config = {
 firebase.initializeApp(config);
 const database = firebase.database();
 
-database
-  .ref()
-  .once('value')
-  .then((snapshot) => {
-    console.log(snapshot.val());
-  });
-
 export { firebase, database as default };
